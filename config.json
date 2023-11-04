@@ -35,6 +35,46 @@
         "concepts": [],
         "prerequisites": [],
         "status": "wip"
+      },
+      {
+        "slug": "log-line-parser",
+        "name": "Log Line Parser",
+        "uuid": "5c8b5ed0-8db6-49b5-8cb1-a5a3411cf3b8",
+        "concepts": [],
+        "prerequisites": [],
+        "status": "wip"
+      },
+      {
+        "slug": "simple-calculator",
+        "name": "Simple Calculator",
+        "uuid": "583a1171-237b-46d4-90f5-ebb35eb1fc27",
+        "concepts": [],
+        "prerequisites": [],
+        "status": "wip"
+      },
+      {
+        "slug": "amusement-park",
+        "name": "Amusement Park",
+        "uuid": "c2468a74-8d95-4a8b-b49c-520c8d982dfe",
+        "concepts": [],
+        "prerequisites": [],
+        "status": "wip"
+      },
+      {
+        "slug": "vehicle-purchase",
+        "name": "Vehicle Purchase",
+        "uuid": "0d78f4e9-13a3-4a53-86e1-8a3fd012ea66",
+        "concepts": [],
+        "prerequisites": [],
+        "status": "wip"
+      },
+      {
+        "slug": "cars-assemble",
+        "name": "Cars Assemble",
+        "uuid": "3c443f75-b7a8-4d62-b620-6fa8af0adbb5",
+        "concepts": [],
+        "prerequisites": [],
+        "status": "wip"
       }
     ],
     "practice": [
@@ -71,6 +111,71 @@
       "uuid": "9f148ca7-bbf6-446e-b1ae-610202703861",
       "slug": "conditionals",
       "name": "Conditionals"
+    },
+    {
+      "uuid": "aea6e194-e60e-45d2-a42a-f484f1244560",
+      "slug": "strings",
+      "name": "Strings"
+    },
+    {
+      "uuid": "278014e5-40f3-4fbf-ba07-db47875a163c",
+      "slug": "instance-variables",
+      "name": "Instance Variables"
+    },
+    {
+      "uuid": "acd9e89a-6fa2-4273-8352-4aa8e1726265",
+      "slug": "null",
+      "name": "Null"
+    },
+    {
+      "uuid": "8708dd1c-e0c0-49bb-8c3f-070d95107856",
+      "slug": "exceptions",
+      "name": "Exceptions"
+    },
+    {
+      "uuid": "2d437f67-6e0a-448e-8aad-4739c0d7acb3",
+      "slug": "numbers",
+      "name": "Numbers"
+    },
+    {
+      "uuid": "015446d8-364b-458d-a4c8-adb5102854ca",
+      "slug": "ranges",
+      "name": "Ranges"
+    },
+    {
+      "uuid": "f339e0a8-42d5-45ad-b6ac-1673c15ad264",
+      "slug": "loops",
+      "name": "Loops"
+    },
+    {
+      "uuid": "60576fef-3e35-40bb-bcb8-c6297d9cb076",
+      "slug": "lists",
+      "name": "Lists"
+    },
+    {
+      "uuid": "ae1d2861-d241-4b2a-b2dd-4b8536185be6",
+      "slug": "maps",
+      "name": "Maps"
+    },
+    {
+      "uuid": "461179f6-487c-435f-9ff8-9dba660caf45",
+      "slug": "ternary-operator",
+      "name": "Ternary Operator"
+    },
+    {
+      "uuid": "bbf24977-67a2-4d03-a170-4c8b79bd91fe",
+      "slug": "iterators",
+      "name": "Iterators"
+    },
+    {
+      "uuid": "2c6a68b0-5eb1-47dc-8f6d-ecbed7d70b79",
+      "slug": "classes",
+      "name": "Classes"
+    },
+    {
+      "uuid": "621f7576-5625-4e56-85e1-73e3006c70f8",
+      "slug": "randomness",
+      "name": "Randomness"
     }
   ],
   "key_features": [

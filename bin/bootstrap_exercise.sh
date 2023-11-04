@@ -13,8 +13,8 @@ SLUG="$1"
 exercise_dir="exercises/concept/${SLUG}"
 
 # build configlet
-echo "Fetching latest version of configlet..."
-./bin/fetch-configlet
+# echo "Fetching latest version of configlet..."
+# ./bin/fetch-configlet
 
 # Preparing config.json
 echo "Adding instructions and configuration files..."
