@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "joshgoebel"
+  ],
+  "files": {
+    "solution": [
+      "forth.wren"
+    ],
+    "test": [
+      "forth.spec.wren"
+    ],
+    "example": [
+      ".meta/proof.ci.wren"
+    ]
+  },
+  "blurb": "Implement an evaluator for a very simple subset of Forth."
+}

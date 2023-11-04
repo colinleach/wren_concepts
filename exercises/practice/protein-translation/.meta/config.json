@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "joshgoebel"
+  ],
+  "files": {
+    "solution": [
+      "protein-translation.wren"
+    ],
+    "test": [
+      "protein-translation.spec.wren"
+    ],
+    "example": [
+      ".meta/proof.ci.wren"
+    ]
+  },
+  "blurb": "Translate RNA sequences into proteins.",
+  "source": "Tyler Long"
+}

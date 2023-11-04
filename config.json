@@ -1,0 +1,118 @@
+{
+  "language": "Wren",
+  "slug": "wren",
+  "active": true,
+  "status": {
+    "concept_exercises": false,
+    "test_runner": true,
+    "representer": true,
+    "analyzer": false
+  },
+  "blurb": "Wren is a small, fast, class-based concurrent scripting language",
+  "version": 3,
+  "online_editor": {
+    "indent_style": "space",
+    "indent_size": 2,
+    "highlightjs_language": "wren"
+  },
+  "test_runner": {
+    "average_run_time": 2
+  },
+  "exercises": {
+    "concept": [
+      {
+        "slug": "lasagna",
+        "name": "Lasagna",
+        "uuid": "2548e681-2217-4f40-b51a-bef5bf9347f2",
+        "concepts": [],
+        "prerequisites": [],
+        "status": "wip"
+      },
+      {
+        "slug": "annalyns-infiltration",
+        "name": "Annalyns Infiltration",
+        "uuid": "5e408fa2-6641-4039-a0a5-942a9c48aa04",
+        "concepts": [],
+        "prerequisites": [],
+        "status": "wip"
+      }
+    ],
+    "practice": [
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "00c787bd-8f2d-4759-b87c-e0ff65c5989d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "two-fer",
+        "name": "Two Fer",
+        "uuid": "42e242e7-03c7-4989-a418-770ee5805008",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "uuid": "6046f1c9-261a-4c8e-b9e5-0648c6f7c63d",
+      "slug": "basics",
+      "name": "Basics"
+    },
+    {
+      "uuid": "69f29859-4445-415c-9d55-031467217eae",
+      "slug": "booleans",
+      "name": "Booleans"
+    },
+    {
+      "uuid": "9f148ca7-bbf6-446e-b1ae-610202703861",
+      "slug": "conditionals",
+      "name": "Conditionals"
+    }
+  ],
+  "key_features": [
+    {
+      "title": "Familiar",
+      "content": "Wren uses a familiar, modern syntax familiar to many coming from JS or another C-like language.",
+      "icon": "fun"
+    },
+    {
+      "title": "Small",
+      "content": "Wren's VM implementation is under 4,000 semicolons of readable and lovingly commented C code.",
+      "icon": "small"
+    },
+    {
+      "title": "Fast",
+      "content": "A single-pass compiler, tight byte-code, and compact objects keeps Wren fast on it's feet.",
+      "icon": "fast"
+    },
+    {
+      "title": "Concurrent",
+      "content": "Lightweight fibers let you organize your program into a flock of communicating coroutines.",
+      "icon": "concurrency"
+    },
+    {
+      "title": "Embeddable",
+      "content": "Easily embedded, no dependencies, a small standard lib, and easy-to-use C API.",
+      "icon": "embeddable"
+    },
+    {
+      "title": "Class-based",
+      "content": "Many scripting languages lack (or have unusual) object models. Wren places classes front and center.",
+      "icon": "interop"
+    }
+  ],
+  "tags": [
+    "execution_mode/interpreted",
+    "paradigm/object_oriented",
+    "platform/linux",
+    "platform/mac",
+    "platform/windows",
+    "runtime/standalone_executable",
+    "used_for/games",
+    "used_for/scripts"
+  ]
+}
