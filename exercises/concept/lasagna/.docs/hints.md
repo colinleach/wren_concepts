@@ -24,3 +24,12 @@
 - You can return a numerical value from the method.
 - You can use one of the other methods you have defined previously.
 - You can use the mathematical operator for addition to add values.
+
+
+## (Optional) Testing on your local machine
+
+For each new exercise, start by installing the test module by running `wrenc package.wren install` at the command line.
+
+Tests can then be run with `wrenc lasagna.spec.wren`.
+
+Note that all tests except the first will be skipped by default. When you want to run them, change `skip.test` to `do.test`.

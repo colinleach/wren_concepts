@@ -1,6 +1,9 @@
 import "./lasagna" for Lasagna
 import "wren-testie/testie" for Testie, Expect
 
+// Only the first test will run by default.
+// To run later tests, change `skip.test` to `do.test`
+
 Testie.test("Lasagna") { |do, skip|
   do.test("Expected minutes in the oven") {
     Expect.value(Lasagna.expectedMinutesInOven()).toEqual(60)
