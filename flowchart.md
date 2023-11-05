@@ -19,17 +19,11 @@ style basics stroke:#f00
 basics --strings--> strings["log-line-parser"]
 style strings stroke:#f00
 
-basics --instance-variables--> instance-variables["amusement-park"]
-style instance-variables stroke:#f00
-
 basics --null--> null["amusement-park"]
 style null stroke:#f00
 
 basics --exceptions--> exceptions["simple-calculator"]
 style exceptions stroke:#f00
-
-instance-variables --booleans--> booleans["annalyns-infiltration"]
-style booleans stroke:#f00
 
 null --booleans--> booleans["annalyns-infiltration"]
 style booleans stroke:#f00
@@ -55,8 +49,26 @@ style ternary-operator stroke:#f00
 numbers -.ranges.-> ranges["chess-game"]
 style ranges stroke:#f00
 
+loops -.lists.-> lists["bird-count"]
+style lists stroke:#f00
+
 ranges -.lists.-> lists["bird-count"]
 style lists stroke:#f00
+
+lists -.maps.-> maps["??"]
+style maps stroke:#f00
+
+maps -.classes.-> classes["??"]
+style classes stroke:#f00
+
+lists -.randomness.-> randomness["??"]
+style randomness stroke:#f00
+
+classes -.iterators.-> iterators["??"]
+style iterators stroke:#f00
+
+classes -.functions.-> functions["??"]
+style functions stroke:#f00
 
 
 
