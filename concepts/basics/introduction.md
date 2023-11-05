@@ -9,17 +9,17 @@ Statements are separated by line breaks.
 Semicolons `;` are not used.
 
 ```wren
-// no need to declare the variable or the type
-answer = 42
-mystr = "Hello, World!
+// declare a variable as var
+var answer = 42
+var mystr = "Hello, World!
 
 /*
-This is another comment.
-No surprises so far.
+Wren does not treat constants differently.
+Just declare them as var
 */
 ```
 
-Single-line comments start with `//`, multi-line comments are as shown above.
+Single-line comments start with `//`, multi-line comments within `/*  */` pairs as shown above.
 
 The basic set of operators is available:
 
@@ -35,7 +35,7 @@ Classes and methods are fundamental, and are declared like this:
 
 ```wren
 class MyClass {
-  squareIt(x) {
+  static squareIt(x) {
     return x * x
   }
 }

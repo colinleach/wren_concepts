@@ -9,17 +9,17 @@ Statements are separated by line breaks.
 Semicolons `;` are not used.
 
 ```wren
-// no need to declare the variable or the type
-answer = 42
-mystr = "Hello, World!
+// declare a variable as var
+var answer = 42
+var mystr = "Hello, World!
 
 /*
-This is another comment.
-No surprises so far.
+Wren does not treat constants differently.
+Just declare them as var
 */
 ```
 
-Single-line comments start with `//`, multi-line comments are as shown above. Nesting of comments is allowed.
+Single-line comments start with `//`, multi-line comments within `/*  */` pairs as shown above. Nesting of comments is allowed.
 
 The basic set of operators is available:
 
@@ -35,11 +35,11 @@ There are also bitwise operators `<<, >>, &, |` (shift left, shift right, and, o
 
 Other mathematical operations used methods of the `Num` class, which will be discussed in a later concept.
 
-Classes and methods are fundamental, and are declared like this:
+Classes and class methods are fundamental, and are declared like this:
 
 ```wren
 class MyClass {
-  squareIt(x) {
+  static squareIt(x) {
     return x * x
   }
 }
@@ -54,3 +54,5 @@ To call a method, include the class name or a class instance:
 ```wren
 MyClass.squareIt(2) // => 4
 ```
+
+Wren classes will be discussed in more detail in a later concept.
