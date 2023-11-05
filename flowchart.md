@@ -25,8 +25,8 @@ style instance-variables stroke:#f00
 basics --null--> null["amusement-park"]
 style null stroke:#f00
 
-basics --raising-exceptions--> raising-exceptions["simple-calculator"]
-style raising-exceptions stroke:#f00
+basics --exceptions--> exceptions["simple-calculator"]
+style exceptions stroke:#f00
 
 instance-variables --booleans--> booleans["annalyns-infiltration"]
 style booleans stroke:#f00
