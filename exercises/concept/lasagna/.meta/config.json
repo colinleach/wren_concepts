@@ -2,10 +2,10 @@
   "authors": ["colinleach"],
   "contributors": [],
   "files": {
-    "solution": ["{slug}.R"],
-    "test": ["test_{slug}.R"],
-    "exemplar": [".meta/exemplar.R"]
+    "solution": ["lasagna.wren"],
+    "test": ["lasagna.spec.wren"],
+    "exemplar": [".meta/proof.ci.wren"]
   },
-  "forked_from": [""],
-  "blurb": ""
+  "forked_from": ["csharp/basics", "ruby/basics"],
+  "blurb": "Learn the basics of R by following a lasagna recipe."
 }

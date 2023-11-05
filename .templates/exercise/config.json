@@ -2,9 +2,9 @@
   "authors": ["colinleach"],
   "contributors": [],
   "files": {
-    "solution": ["{slug}.R"],
-    "test": ["test_{slug}.R"],
-    "exemplar": [".meta/exemplar.R"]
+    "solution": ["{slug}.wren"],
+    "test": ["test_{slug}.wren"],
+    "exemplar": [".meta/proof.ci.wren"]
   },
   "forked_from": [""],
   "blurb": ""
