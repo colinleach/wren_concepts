@@ -16,17 +16,14 @@ graph TD
 start(("Start")) --basics--> basics["lasagna"]
 style basics stroke:#f00
 
-basics --strings--> strings["log-line-parser"]
+basics --booleans--> booleans["annalyns-infiltration"]
+style booleans stroke:#f00
+
+booleans --strings--> strings["log-line-parser"]
 style strings stroke:#f00
 
-basics --null--> null["amusement-park"]
+booleans --null--> null["amusement-park"]
 style null stroke:#f00
-
-basics --exceptions--> exceptions["simple-calculator"]
-style exceptions stroke:#f00
-
-null --booleans--> booleans["annalyns-infiltration"]
-style booleans stroke:#f00
 
 booleans --conditionals--> conditionals["vehicle-purchase?<br/>cars-assemble?"]
 style conditionals stroke:#f00
@@ -42,6 +39,9 @@ style loops stroke:#f00
 
 conditionals -.ranges.-> ranges["chess-game"]
 style ranges stroke:#f00
+
+conditionals --exceptions--> exceptions["simple-calculator"]
+style exceptions stroke:#f00
 
 conditionals -.ternary-operator.-> ternary-operator["moviegoer"]
 style ternary-operator stroke:#f00
