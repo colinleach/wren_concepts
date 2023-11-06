@@ -1,5 +1,5 @@
 {
   "authors": ["colinleach"],
   "contributors": [],
-  "blurb": ""
+  "blurb": "All numbers in Wren are instances of the Num class. Internally, they are double-precision floating point."
 }
