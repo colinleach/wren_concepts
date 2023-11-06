@@ -1,6 +1,10 @@
 [
   {
-    "url": "",
-    "description": ""
+    "url": "https://wren.io/modules/core/bool.html",
+    "description": "Bool Class API"
+  },
+  {
+    "url": "https://wren.io/control-flow.html#logical-operators",
+    "description": "Logical operators"
   }
 ]

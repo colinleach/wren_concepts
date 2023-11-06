@@ -32,8 +32,8 @@
         "slug": "annalyns-infiltration",
         "name": "Annalyns Infiltration",
         "uuid": "5e408fa2-6641-4039-a0a5-942a9c48aa04",
-        "concepts": [],
-        "prerequisites": [],
+        "concepts": ["booleans"],
+        "prerequisites": ["basics"],
         "status": "wip"
       },
       {

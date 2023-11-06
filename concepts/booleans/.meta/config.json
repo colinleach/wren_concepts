@@ -1,5 +1,5 @@
 {
   "authors": ["colinleach"],
   "contributors": [],
-  "blurb": ""
+  "blurb": "Bools are true or false, with operators ! (not), && (and), || (or)"
 }

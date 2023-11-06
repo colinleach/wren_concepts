@@ -1,5 +1,5 @@
 {
   "authors": ["colinleach"],
   "contributors": [],
-  "blurb": ""
+  "blurb": "Wren has a conventional set of comparison operators, evaluating to a Bool value."
 }
