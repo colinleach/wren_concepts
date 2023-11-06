@@ -24,7 +24,7 @@
         "slug": "lasagna",
         "name": "Lasagna",
         "uuid": "2548e681-2217-4f40-b51a-bef5bf9347f2",
-        "concepts": [],
+        "concepts": ["basics"],
         "prerequisites": [],
         "status": "wip"
       },
@@ -40,16 +40,16 @@
         "slug": "log-line-parser",
         "name": "Log Line Parser",
         "uuid": "5c8b5ed0-8db6-49b5-8cb1-a5a3411cf3b8",
-        "concepts": [],
-        "prerequisites": [],
+        "concepts": ["strings"],
+        "prerequisites": ["Basics"],
         "status": "wip"
       },
       {
         "slug": "simple-calculator",
         "name": "Simple Calculator",
         "uuid": "583a1171-237b-46d4-90f5-ebb35eb1fc27",
-        "concepts": [],
-        "prerequisites": [],
+        "concepts": ["exceptions"],
+        "prerequisites": ["basics"],
         "status": "wip"
       },
       {

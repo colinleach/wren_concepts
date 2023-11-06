@@ -35,9 +35,13 @@ Classes and methods are fundamental, and are declared like this:
 
 ```wren
 class MyClass {
+  // multi-line method syntax
   static squareIt(x) {
-    return x * x
+    return x * x  // needs a `return`
   }
+
+  // single-line syntax
+  static cubeIt(x) { x * x * x } // implicit return
 }
 ```
 

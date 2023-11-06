@@ -24,7 +24,7 @@ Single-line comments start with `//`, multi-line comments within `/*  */` pairs 
 The basic set of operators is available:
 
 ```wren
-2 +  3  // => 5
+2 + 3  // => 5
 2 - 3   // => -1
 2 * 3   // => 6
 2 / 3   // => 0.66666666666667
@@ -35,9 +35,13 @@ Classes and methods are fundamental, and can be declared like this:
 
 ```wren
 class MyClass {
+  // multi-line method syntax
   static squareIt(x) {
-    return x * x
+    return x * x  // needs a `return`
   }
+
+  // single-line syntax
+  static cubeIt(x) { x * x * x } // implicit return
 }
 ```
 
